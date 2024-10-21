@@ -10,13 +10,13 @@ int main() {
 	    cin>>a;
 	    
 	    if(a==0) {
-	        cout<<"i"<<endl;
+	        cout<<i<<endl;
 	        return 0;
 	    }
 	}
 	
 	int b;
-	for(int i=k+1; i<n; i++) {
+	for(int i=k; i<n; i++) {
 	    cin>>b;
 	    if(a != b){
 	        cout<<i<<endl;
